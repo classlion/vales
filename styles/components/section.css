@@ -1,0 +1,238 @@
+.header-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: 60px;
+    margin: 40px 0;
+}
+
+.section-rewiew-img {
+    height: 203px;
+}
+
+.section-title {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-background,
+.section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section-background {
+    z-index: -2;
+}
+
+.section-background>img {
+    height: 100%;
+}
+
+.section-description {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.section-hero {
+    padding: 0;
+}
+
+.hero-title {
+    color: white;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    line-height: 85px;
+}
+
+.section-hero .section-foreground {
+    min-height: 372px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.section-hero .section-header {
+    padding: 16px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.section-hero .section-body {
+    padding: 32px 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.section-hero .section-body .section-content {
+    max-width: 771px;
+    text-align: center;
+}
+
+.hero-new-mark {
+    background-color: #FF7931;
+    padding: 14px, 5px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    width: 99px;
+    height: 27px;
+    margin: 0 auto;
+}
+
+.side-news-image {
+    height: 91px;
+    width: 127px;
+}
+
+.side-news {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.side-news-body {
+    display: block;
+}
+
+.side-news-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10.1px;
+}
+
+.side-news-description {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.side-news-body {
+    padding-left: 12px;
+}
+
+.main-news {
+    position: relative;
+}
+
+.main-news-background {
+    z-index: -2;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-news-background>img {
+    height: 100%;
+}
+
+.main-news {
+    height: 334px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.main-news-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-third {
+    height: 176px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-third-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: center;
+}
+
+.section-third-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.rewiews-nav {
+    max-width: 287px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewiews-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.rewiew-naw-item {
+    border: 1px solid white;
+    color: silver;
+    padding: 10px 15px;
+}
+
+.rewies-nav-is-active {
+    border: 1px solid #FF7931;
+    padding: 10px 15px;
+    color: #FF7931
+}
+
+.arrow-right {
+    border-left: 2px solid silver;
+    color: silver;
+}
+
+.arrow-left {
+    border-right: 2px solid silver;
+    color: silver;
+}

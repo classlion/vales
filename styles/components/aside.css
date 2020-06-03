@@ -1,0 +1,47 @@
+.aside-item {
+    width: 288px;
+    height: 310px;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aside-item-background {
+    z-index: -2;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.aside-item-background>img {
+    height: 100%;
+}
+
+.dark {
+    color: #1A1C1C;
+}
+
+.light {
+    color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+    .aside-item {
+        width: 370px;
+        height: 479px;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
